@@ -1,0 +1,23 @@
+[
+	{
+		"type": "function",
+		"function": {
+			"description": "If some one ask about this project, call this tool",
+			"name": "fetchProjectInfo",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"language": {
+						"type": "string",
+						"description": "the user language, options: zh, en(if user language is not Chinese, use English)"
+					}
+				},
+				"required": [
+					"language"
+				]
+			}
+		},
+		"script": "fetchProjectInfo"
+	}
+]
+

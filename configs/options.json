@@ -1,0 +1,6 @@
+{
+	"selectApi": "deepseek-chat",
+	"sysPrompt": "you are a assistant about this project: llmplayground",
+	"relationDatabase": false,
+	"redis": false
+}

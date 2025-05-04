@@ -1,0 +1,12 @@
+{
+	"deepseek-chat": {
+		"apiKey": "your-api-key",
+		"model": "deepseek-chat",
+		"apiUrl": "https://api.deepseek.com/chat/completions"
+	},
+	"openAi-4o-mini": {
+		"apiKey": "your-api-key",
+		"model": "gpt-4o-mini",
+		"apiUrl": "https://api.openai.com/v1/chat/completions"
+	}
+}

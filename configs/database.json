@@ -1,0 +1,7 @@
+{
+	"driver": "mysql",
+	"name": "myDb",
+	"url": "localhost:3306",
+	"user": "user",
+	"password": "password"
+}
