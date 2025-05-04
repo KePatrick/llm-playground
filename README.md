@@ -1,5 +1,5 @@
 # LLMplayground (go-clean-architecture)
-中文版本README請查看: [README_zh](https://github.com/KePatrick/llm-playground/blob/main/README_zh.md)
+中文版本README請查看: [README_zh.md](https://github.com/KePatrick/llm-playground/blob/main/README_zh.md)
 ## Project Overview
 
 ### Introduction
