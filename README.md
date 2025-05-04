@@ -1,4 +1,5 @@
 # LLMplayground (go-clean-architecture)
+中文版本README請查看: [README_zh](https://github.com/KePatrick/llm-playground/blob/main/README_zh.md)
 ## Project Overview
 
 ### Introduction
@@ -76,13 +77,18 @@ cd your-repo
 
 ```json
 {
- "selectApi": "deepseek-chat", // Corresponds to configs/api.json
- "sysPrompt": "you are a assistant about this project: llmplayground", // System prompt
- "relationDatabase": false, // Whether to enable DB (only supports MySQL)
- "redis": false // Whether to enable redis
+ "selectApi": "deepseek-chat",
+ "sysPrompt": "you are a assistant about this project: llmplayground",
+ "relationDatabase": false, 
+ "redis": false 
 }
 ```
+Notes:
 
+- selectApi: Corresponds to the API selection in configs/api.json
+- sysPrompt: System prompt
+- relationDatabase: Whether to enable database (only supports MySQL)
+- redis: Whether to enable Redis
 > Set `relationDatabase` and `redis` to `true` if needed, and configure `configs/database.json`, `configs/redis.json`.
 
 #### `configs/api.json` (Required)
@@ -126,13 +132,16 @@ cd your-repo
 
 ```json
 {
-  "driver": "mysql", // Currently only supports MySQL
+  "driver": "mysql",
   "name": "myDb",
   "url": "localhost:3306",
   "user": "user",
   "password": "password"
 }
 ```
+Notes:
+
+- driver: Currently only supports MySQL
 
 #### `configs/redis.json` (Required if using Redis)
 

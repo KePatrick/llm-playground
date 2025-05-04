@@ -76,12 +76,17 @@ cd your-repo
 
 ```json
 {
-  "selectApi": "deepseek-chat", // 對應到configs/api.json
-  "sysPrompt": "you are a assistant about this project: llmplayground", // 系統提示詞
-  "relationDatabase": false, //是否啟用DB(僅支援MySQL)
-  "redis": false // 是否啟用redis
+  "selectApi": "deepseek-chat", 
+  "sysPrompt": "you are a assistant about this project: llmplayground", 
+  "relationDatabase": false, 
+  "redis": false 
 }
 ```
+註記: 
+ - selectApi: 對應到configs/api.json
+ - sysPrompt: 系統提示詞
+ - relationDatabase: 是否啟用DB(僅支援MySQL)
+ - redis: 是否啟用redis
 
 > `relationDatabase` 與 `redis` 預設為 false，如設為 true，需額外設定`configs/database.json`, `configs/redis.json`。
 
@@ -126,13 +131,15 @@ cd your-repo
 
 ```json
 {
-  "driver": "mysql",  //目前僅支援MySQL
+  "driver": "mysql",
   "name": "myDb",
   "url": "localhost:3306",
   "user": "user",
   "password": "password"
 }
 ```
+註記: 
+ - driver: 目前僅支援MySQL
 
 #### `configs/redis.json`（使用 Redis 時填寫）
 
